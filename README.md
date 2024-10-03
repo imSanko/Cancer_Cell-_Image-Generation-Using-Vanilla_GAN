@@ -1,32 +1,34 @@
-GAN-Based Cell and Slide Generation
+ GAN-Based Cell and Slide Generation
+
 This project implements a Generative Adversarial Network (GAN) to generate synthetic cell images and medical slides. It is designed to augment datasets by generating high-quality artificial images based on a real dataset of medical slides. The GAN is trained on a dataset of labeled cell images with a 60:20:20 split for training, validation, and testing.
 
-Features
-Image Preprocessing: Loads, resizes, and processes cell images from a directory structure, ensuring all images are standardized to 64x64x3 dimensions.
-GAN Architecture:
-Generator: Generates realistic 64x64x3 cell images from random noise using a deep neural network.
-Discriminator: Evaluates images, distinguishing between real and generated ones, using a convolutional network.
-Training:
-Binary Cross-Entropy loss functions for both generator and discriminator.
-Alternating training between generator and discriminator to improve image generation over time.
-60:20:20 Data Split:
-Training: 60% of the images.
-Validation: 20% of the images.
-Test: 20% of the images.
-Visualization: Displays generated images after each epoch for qualitative evaluation of the training process.
-Table of Contents
-Installation
-Dataset Structure
-Usage
-Training the Model
-Results
-Technologies
-Future Improvements
-Installation
-Clone the repository:
+## Features
+- **Image Preprocessing**: Loads, resizes, and processes cell images from a directory structure, ensuring all images are standardized to 64x64x3 dimensions.
+- **GAN Architecture**:
+  - **Generator**: Generates realistic 64x64x3 cell images from random noise using a deep neural network.
+  - **Discriminator**: Evaluates images, distinguishing between real and generated ones, using a convolutional network.
+- **Training**:
+  - Binary Cross-Entropy loss functions for both generator and discriminator.
+  - Alternating training between generator and discriminator to improve image generation over time.
+- **60:20:20 Data Split**:
+  - Training: 60% of the images.
+  - Validation: 20% of the images.
+  - Test: 20% of the images.
+- **Visualization**: Displays generated images after each epoch for qualitative evaluation of the training process.
 
-bash
-Copy code
+## Table of Contents
+- [Installation](#installation)
+- [Dataset Structure](#dataset-structure)
+- [Usage](#usage)
+- [Training the Model](#training-the-model)
+- [Results](#results)
+- [Technologies](#technologies)
+- [Future Improvements](#future-improvements)
+
+## Installation
+
+Clone the repository:
+```bash
 git clone https://github.com/your-username/gan-cell-slide-generation.git
 cd gan-cell-slide-generation
 Install the necessary dependencies:
@@ -39,7 +41,7 @@ Prepare your dataset. Ensure the dataset is structured as mentioned below.
 Dataset Structure
 Ensure your dataset is structured as follows, with images placed in the appropriate subdirectories:
 
-text
+bash
 Copy code
 /home/iamsanko/Downloads/Test 1/output
 │
@@ -102,3 +104,7 @@ Conditional GAN: Implement a conditional GAN (cGAN) to generate specific types o
 Improved Training Stability: Experiment with Wasserstein GAN (WGAN) for better training stability.
 Larger Dataset: Expand the dataset with more diverse cell images for better generalization.
 Evaluation Metrics: Implement additional metrics like FID (Fréchet Inception Distance) to quantitatively measure image quality.
+csharp
+Copy code
+
+You can copy and paste this content into a file named `README.md` in your project folder.
