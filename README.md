@@ -28,15 +28,6 @@ This project implements a Generative Adversarial Network (GAN) to generate synth
 ## Briefly What is SIPaKMED
 This project aims to develop a Vanilla Generative Adversarial Network (GAN) to generate synthetic cervical cell images using the SIPaKmed dataset. The generated images are intended to enhance diagnostic training resources for cervical cancer detection, providing a valuable tool for researchers and medical professionals.
 
-## Table of Contents
-- [Background](#background)
-- [Project Description](#project-description)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Results](#results)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
-
 ## Background
 SIPaKmed is a publicly available dataset that contains cervical cell images, classified into various categories. The goal of this project is to leverage deep learning techniques to generate realistic synthetic images, which can augment the existing dataset and assist in training models for cervical cancer diagnosis.
 
@@ -50,19 +41,19 @@ SIPaKmed is a publicly available dataset that contains cervical cell images, cla
 To run this project, you need to have Python 3.6 or higher installed along with the following libraries:
 
 ##bash
-pip install torch torchvision matplotlib opencv-python optuna
+`pip install torch torchvision matplotlib opencv-python optuna`
 Usage
 Clone the repository:
 
 ##bash
 Copy code
-git clone https://github.com/yourusername/synthetic-cell-image-generation.git
+`git clone https://github.com/yourusername/synthetic-cell-image-generation.git`
 cd synthetic-cell-image-generation
 Run the training script:
 
 ##bash
 Copy code
-python train.py
+`python train.py`
 Generated images will be saved in the output/ directory.
 
 ##Results
