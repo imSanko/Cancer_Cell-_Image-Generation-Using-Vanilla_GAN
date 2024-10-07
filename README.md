@@ -25,11 +25,7 @@ This project implements a Generative Adversarial Network (GAN) to generate synth
 - [Technologies](#technologies)
 - [Future Improvements](#future-improvements)
 
-markdown
-Copy code
-# Synthetic Cell Image Generation Using Vanilla GAN
-
-## Overview
+## Briefly What is SIPaKMED
 This project aims to develop a Vanilla Generative Adversarial Network (GAN) to generate synthetic cervical cell images using the SIPaKmed dataset. The generated images are intended to enhance diagnostic training resources for cervical cancer detection, providing a valuable tool for researchers and medical professionals.
 
 ## Table of Contents
