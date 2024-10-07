@@ -1,4 +1,4 @@
- GAN-Based Cell and Slide Generation
+  GAN-Based Cell and Slide Generation
 
 This project implements a Generative Adversarial Network (GAN) to generate synthetic cell images and medical slides. It is designed to augment datasets by generating high-quality artificial images based on a real dataset of medical slides. The GAN is trained on a dataset of labeled cell images with a 60:20:20 split for training, validation, and testing.
 
@@ -24,10 +24,6 @@ This project implements a Generative Adversarial Network (GAN) to generate synth
 - [Results](#results)
 - [Technologies](#technologies)
 - [Future Improvements](#future-improvements)
-
-## Installation
-
-Here's a sample README.md file for your GitHub project on synthetic cell image generation using Vanilla GAN. This file provides an overview of the project, installation instructions, usage, and other relevant sections.
 
 markdown
 Copy code
