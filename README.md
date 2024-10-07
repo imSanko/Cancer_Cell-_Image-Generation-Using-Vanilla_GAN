@@ -1,4 +1,4 @@
-  GAN-Based Cell and Slide Generation
+# GAN-Based Cell and Slide Generation of Cancer Cells for SIPaKMED
 
 This project implements a Generative Adversarial Network (GAN) to generate synthetic cell images and medical slides. It is designed to augment datasets by generating high-quality artificial images based on a real dataset of medical slides. The GAN is trained on a dataset of labeled cell images with a 60:20:20 split for training, validation, and testing.
 
@@ -40,12 +40,12 @@ SIPaKmed is a publicly available dataset that contains cervical cell images, cla
 ## Installation
 To run this project, you need to have Python 3.6 or higher installed along with the following libraries:
 
-##bash
+## bash
 `pip install torch torchvision matplotlib opencv-python optuna`
 Usage
 Clone the repository:
 
-##bash
+## bash
 Copy code
 `git clone https://github.com/yourusername/synthetic-cell-image-generation.git`
 cd synthetic-cell-image-generation
@@ -56,18 +56,16 @@ Copy code
 `python train.py`
 Generated images will be saved in the output/ directory.
 
-##Results
+## Results
 The Vanilla GAN successfully generated synthetic cervical cell images that exhibit realistic characteristics. The generated images were evaluated based on their visual fidelity and potential utility in medical diagnostics.
 
-##Example Output
 
-##License
+## License
 This project is licensed under the MIT License. See the LICENSE file for more information.
 
-##Acknowledgments
+## Acknowledgments
 Dr. Prof. Nibarana Das for guidance and support throughout the project.
 Contributors and maintainers of the SIPaKmed dataset.
-markdown
 
 ### Notes:
 - Replace `yourusername` in the clone command with your actual GitHub username.
